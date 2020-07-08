@@ -1,0 +1,1071 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SDatabaseDataSet" targetNamespace="http://tempuri.org/SDatabaseDataSet.xsd" xmlns:mstns="http://tempuri.org/SDatabaseDataSet.xsd" xmlns="http://tempuri.org/SDatabaseDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SDatabaseConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SDatabaseConnectionString (Settings)" PropertyReference="ApplicationSettings.DesktopApp4.Properties.Settings.GlobalReference.Default.SDatabaseConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="dataTableTableAdapter" GeneratorDataComponentClassName="dataTableTableAdapter" Name="dataTable" UserDataComponentName="dataTableTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SDatabaseConnectionString (Settings)" DbObjectName="dataTable" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM `dataTable` WHERE (((? = 1 AND `ID` IS NULL) OR (`ID` = ?)) AND (`Symbol` = ?) AND ((? = 1 AND `DOB` IS NULL) OR (`DOB` = ?)) AND ((? = 1 AND `NepaliTh` IS NULL) OR (`NepaliTh` = ?)) AND ((? = 1 AND `NThGrade` IS NULL) OR (`NThGrade` = ?)) AND ((? = 1 AND `NepaliPr` IS NULL) OR (`NepaliPr` = ?)) AND ((? = 1 AND `NPrGrade` IS NULL) OR (`NPrGrade` = ?)) AND ((? = 1 AND `NepaliTotal` IS NULL) OR (`NepaliTotal` = ?)) AND ((? = 1 AND `NTotalGrade` IS NULL) OR (`NTotalGrade` = ?)) AND ((? = 1 AND `NepalliGPA` IS NULL) OR (`NepalliGPA` = ?)) AND ((? = 1 AND `EnglishTh` IS NULL) OR (`EnglishTh` = ?)) AND ((? = 1 AND `EThGrade` IS NULL) OR (`EThGrade` = ?)) AND ((? = 1 AND `EnglishPr` IS NULL) OR (`EnglishPr` = ?)) AND ((? = 1 AND `EPrGrade` IS NULL) OR (`EPrGrade` = ?)) AND ((? = 1 AND `EnglishTotal` IS NULL) OR (`EnglishTotal` = ?)) AND ((? = 1 AND `ETotalGrade` IS NULL) OR (`ETotalGrade` = ?)) AND ((? = 1 AND `EnglishGPA` IS NULL) OR (`EnglishGPA` = ?)) AND ((? = 1 AND `MathematicsTh` IS NULL) OR (`MathematicsTh` = ?)) AND ((? = 1 AND `MGrade` IS NULL) OR (`MGrade` = ?)) AND ((? = 1 AND `MathGPA` IS NULL) OR (`MathGPA` = ?)) AND ((? = 1 AND `SocialTh` IS NULL) OR (`SocialTh` = ?)) AND ((? = 1 AND `SoThGrade` IS NULL) OR (`SoThGrade` = ?)) AND ((? = 1 AND `SocialPr` IS NULL) OR (`SocialPr` = ?)) AND ((? = 1 AND `SoPrGrade` IS NULL) OR (`SoPrGrade` = ?)) AND ((? = 1 AND `SocialTotal` IS NULL) OR (`SocialTotal` = ?)) AND ((? = 1 AND `SoTotalGrade` IS NULL) OR (`SoTotalGrade` = ?)) AND ((? = 1 AND `SocialGPA` IS NULL) OR (`SocialGPA` = ?)) AND ((? = 1 AND `ScienceTh` IS NULL) OR (`ScienceTh` = ?)) AND ((? = 1 AND `ScThGrade` IS NULL) OR (`ScThGrade` = ?)) AND ((? = 1 AND `SciencePr` IS NULL) OR (`SciencePr` = ?)) AND ((? = 1 AND `ScPrGrade` IS NULL) OR (`ScPrGrade` = ?)) AND ((? = 1 AND `ScienceTotal` IS NULL) OR (`ScienceTotal` = ?)) AND ((? = 1 AND `ScTotalGrade` IS NULL) OR (`ScTotalGrade` = ?)) AND ((? = 1 AND `ScienceGPA` IS NULL) OR (`ScienceGPA` = ?)) AND ((? = 1 AND `HealthTh` IS NULL) OR (`HealthTh` = ?)) AND ((? = 1 AND `HThGrade` IS NULL) OR (`HThGrade` = ?)) AND ((? = 1 AND `HealthPr` IS NULL) OR (`HealthPr` = ?)) AND ((? = 1 AND `HPrGrade` IS NULL) OR (`HPrGrade` = ?)) AND ((? = 1 AND `HealthTotal` IS NULL) OR (`HealthTotal` = ?)) AND ((? = 1 AND `HTotalGrade` IS NULL) OR (`HTotalGrade` = ?)) AND ((? = 1 AND `HealthGPA` IS NULL) OR (`HealthGPA` = ?)) AND ((? = 1 AND `MoralTh` IS NULL) OR (`MoralTh` = ?)) AND ((? = 1 AND `MThGrade` IS NULL) OR (`MThGrade` = ?)) AND ((? = 1 AND `MoralPr` IS NULL) OR (`MoralPr` = ?)) AND ((? = 1 AND `MPrGrade` IS NULL) OR (`MPrGrade` = ?)) AND ((? = 1 AND `MoralTotal` IS NULL) OR (`MoralTotal` = ?)) AND ((? = 1 AND `MTotalGrade` IS NULL) OR (`MTotalGrade` = ?)) AND ((? = 1 AND `MoralGPA` IS NULL) OR (`MoralGPA` = ?)) AND ((? = 1 AND `BusinessTh` IS NULL) OR (`BusinessTh` = ?)) AND ((? = 1 AND `BThGrade` IS NULL) OR (`BThGrade` = ?)) AND ((? = 1 AND `BusinessPr` IS NULL) OR (`BusinessPr` = ?)) AND ((? = 1 AND `BPrGrade` IS NULL) OR (`BPrGrade` = ?)) AND ((? = 1 AND `BusinessTotal` IS NULL) OR (`BusinessTotal` = ?)) AND ((? = 1 AND `BTotalGrade` IS NULL) OR (`BTotalGrade` = ?)) AND ((? = 1 AND `BusinessGPA` IS NULL) OR (`BusinessGPA` = ?)) AND ((? = 1 AND `LocalTh` IS NULL) OR (`LocalTh` = ?)) AND ((? = 1 AND `LThGrade` IS NULL) OR (`LThGrade` = ?)) AND ((? = 1 AND `LocalPr` IS NULL) OR (`LocalPr` = ?)) AND ((? = 1 AND `LPrGrade` IS NULL) OR (`LPrGrade` = ?)) AND ((? = 1 AND `LocalTotal` IS NULL) OR (`LocalTotal` = ?)) AND ((? = 1 AND `LTotalGrade` IS NULL) OR (`LTotalGrade` = ?)) AND ((? = 1 AND `LocalGPA` IS NULL) OR (`LocalGPA` = ?)) AND ((? = 1 AND `TotalTh` IS NULL) OR (`TotalTh` = ?)) AND ((? = 1 AND `TotalThGrade` IS NULL) OR (`TotalThGrade` = ?)) AND ((? = 1 AND `TotalPr` IS NULL) OR (`TotalPr` = ?)) AND ((? = 1 AND `TotalPrGrade` IS NULL) OR (`TotalPrGrade` = ?)) AND ((? = 1 AND `Total` IS NULL) OR (`Total` = ?)) AND ((? = 1 AND `Grade` IS NULL) OR (`Grade` = ?)) AND ((? = 1 AND `GPA` IS NULL) OR (`GPA` = ?)) AND ((? = 1 AND `Remark` IS NULL) OR (`Remark` = ?)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_ID" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ID" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_ID" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_Symbol" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Symbol" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_DOB" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="DOB" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_DOB" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="DOB" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_NepaliTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="NepaliTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_NepaliTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NepaliTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_NThGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="NThGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_NThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NThGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_NepaliPr" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="NepaliPr" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_NepaliPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NepaliPr" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_NPrGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="NPrGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_NPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NPrGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_NepaliTotal" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="NepaliTotal" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_NepaliTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NepaliTotal" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_NTotalGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="NTotalGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_NTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NTotalGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_NepalliGPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="NepalliGPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_NepalliGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NepalliGPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_EnglishTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="EnglishTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_EnglishTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EnglishTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_EThGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="EThGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_EThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EThGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_EnglishPr" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="EnglishPr" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_EnglishPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EnglishPr" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_EPrGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="EPrGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_EPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EPrGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_EnglishTotal" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="EnglishTotal" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_EnglishTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EnglishTotal" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_ETotalGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ETotalGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_ETotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ETotalGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_EnglishGPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="EnglishGPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_EnglishGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EnglishGPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MathematicsTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MathematicsTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MathematicsTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MathematicsTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MathGPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MathGPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MathGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MathGPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_SocialTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="SocialTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_SocialTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SocialTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_SoThGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="SoThGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_SoThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SoThGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_SocialPr" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="SocialPr" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_SocialPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SocialPr" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_SoPrGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="SoPrGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_SoPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SoPrGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_SocialTotal" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="SocialTotal" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_SocialTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SocialTotal" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_SoTotalGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="SoTotalGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_SoTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SoTotalGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_SocialGPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="SocialGPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_SocialGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SocialGPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_ScienceTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ScienceTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_ScienceTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScienceTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_ScThGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ScThGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_ScThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScThGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_SciencePr" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="SciencePr" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_SciencePr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SciencePr" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_ScPrGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ScPrGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_ScPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScPrGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_ScienceTotal" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ScienceTotal" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_ScienceTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScienceTotal" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_ScTotalGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ScTotalGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_ScTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScTotalGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_ScienceGPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ScienceGPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_ScienceGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScienceGPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_HealthTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="HealthTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_HealthTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HealthTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_HThGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="HThGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_HThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HThGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_HealthPr" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="HealthPr" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_HealthPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HealthPr" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_HPrGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="HPrGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_HPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HPrGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_HealthTotal" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="HealthTotal" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_HealthTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HealthTotal" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_HTotalGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="HTotalGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_HTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HTotalGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_HealthGPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="HealthGPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_HealthGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HealthGPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MoralTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MoralTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MoralTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MoralTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MThGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MThGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MThGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MoralPr" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MoralPr" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MoralPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MoralPr" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MPrGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MPrGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MPrGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MoralTotal" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MoralTotal" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MoralTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MoralTotal" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MTotalGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MTotalGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MTotalGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MoralGPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MoralGPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MoralGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MoralGPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_BusinessTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="BusinessTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_BusinessTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BusinessTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_BThGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="BThGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_BThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BThGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_BusinessPr" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="BusinessPr" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_BusinessPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BusinessPr" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_BPrGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="BPrGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_BPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BPrGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_BusinessTotal" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="BusinessTotal" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_BusinessTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BusinessTotal" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_BTotalGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="BTotalGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_BTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BTotalGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_BusinessGPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="BusinessGPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_BusinessGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BusinessGPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_LocalTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="LocalTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_LocalTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LocalTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_LThGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="LThGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_LThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LThGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_LocalPr" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="LocalPr" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_LocalPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LocalPr" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_LPrGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="LPrGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_LPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LPrGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_LocalTotal" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="LocalTotal" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_LocalTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LocalTotal" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_LTotalGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="LTotalGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_LTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LTotalGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_LocalGPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="LocalGPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_LocalGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LocalGPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_TotalTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="TotalTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_TotalTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="TotalTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_TotalThGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="TotalThGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_TotalThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="TotalThGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_TotalPr" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="TotalPr" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_TotalPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="TotalPr" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_TotalPrGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="TotalPrGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_TotalPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="TotalPrGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Total" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Total" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Total" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Total" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Grade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Grade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Grade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Grade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_GPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="GPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_GPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="GPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Remark" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Remark" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Remark" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Remark" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO `dataTable` (`StudentName`, `Symbol`, `MotherName`, `FatherName`, `Address`, `DOB`, `NepaliTh`, `NThGrade`, `NepaliPr`, `NPrGrade`, `NepaliTotal`, `NTotalGrade`, `NepalliGPA`, `EnglishTh`, `EThGrade`, `EnglishPr`, `EPrGrade`, `EnglishTotal`, `ETotalGrade`, `EnglishGPA`, `MathematicsTh`, `MGrade`, `MathGPA`, `SocialTh`, `SoThGrade`, `SocialPr`, `SoPrGrade`, `SocialTotal`, `SoTotalGrade`, `SocialGPA`, `ScienceTh`, `ScThGrade`, `SciencePr`, `ScPrGrade`, `ScienceTotal`, `ScTotalGrade`, `ScienceGPA`, `HealthTh`, `HThGrade`, `HealthPr`, `HPrGrade`, `HealthTotal`, `HTotalGrade`, `HealthGPA`, `MoralTh`, `MThGrade`, `MoralPr`, `MPrGrade`, `MoralTotal`, `MTotalGrade`, `MoralGPA`, `BusinessTh`, `BThGrade`, `BusinessPr`, `BPrGrade`, `BusinessTotal`, `BTotalGrade`, `BusinessGPA`, `LocalTh`, `LThGrade`, `LocalPr`, `LPrGrade`, `LocalTotal`, `LTotalGrade`, `LocalGPA`, `TotalTh`, `TotalThGrade`, `TotalPr`, `TotalPrGrade`, `Total`, `Grade`, `GPA`, `Remark`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="StudentName" Precision="0" ProviderType="LongVarWChar" Scale="0" Size="0" SourceColumn="StudentName" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Symbol" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Symbol" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MotherName" Precision="0" ProviderType="LongVarWChar" Scale="0" Size="0" SourceColumn="MotherName" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="FatherName" Precision="0" ProviderType="LongVarWChar" Scale="0" Size="0" SourceColumn="FatherName" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Address" Precision="0" ProviderType="LongVarWChar" Scale="0" Size="0" SourceColumn="Address" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="DOB" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="DOB" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="NepaliTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NepaliTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="NThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NThGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="NepaliPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NepaliPr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="NPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NPrGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="NepaliTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NepaliTotal" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="NTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NTotalGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="NepalliGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NepalliGPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="EnglishTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EnglishTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="EThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EThGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="EnglishPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EnglishPr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="EPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EPrGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="EnglishTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EnglishTotal" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="ETotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ETotalGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="EnglishGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EnglishGPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MathematicsTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MathematicsTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MathGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MathGPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="SocialTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SocialTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="SoThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SoThGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="SocialPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SocialPr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="SoPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SoPrGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="SocialTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SocialTotal" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="SoTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SoTotalGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="SocialGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SocialGPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="ScienceTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScienceTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="ScThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScThGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="SciencePr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SciencePr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="ScPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScPrGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="ScienceTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScienceTotal" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="ScTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScTotalGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="ScienceGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScienceGPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="HealthTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HealthTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="HThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HThGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="HealthPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HealthPr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="HPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HPrGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="HealthTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HealthTotal" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="HTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HTotalGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="HealthGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HealthGPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MoralTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MoralTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MThGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MoralPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MoralPr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MPrGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MoralTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MoralTotal" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MTotalGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MoralGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MoralGPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="BusinessTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BusinessTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="BThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BThGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="BusinessPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BusinessPr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="BPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BPrGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="BusinessTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BusinessTotal" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="BTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BTotalGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="BusinessGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BusinessGPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="LocalTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LocalTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="LThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LThGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="LocalPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LocalPr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="LPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LPrGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="LocalTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LocalTotal" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="LTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LTotalGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="LocalGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LocalGPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="TotalTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="TotalTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="TotalThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="TotalThGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="TotalPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="TotalPr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="TotalPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="TotalPrGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Total" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Total" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Grade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Grade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="GPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="GPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Remark" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Remark" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ID, StudentName, Symbol, MotherName, FatherName, Address, DOB, NepaliTh, NThGrade, NepaliPr, NPrGrade, NepaliTotal, NTotalGrade, NepalliGPA, EnglishTh, EThGrade, EnglishPr, EPrGrade, EnglishTotal, ETotalGrade, EnglishGPA, MathematicsTh, MGrade, MathGPA, SocialTh, SoThGrade, SocialPr, SoPrGrade, SocialTotal, SoTotalGrade, SocialGPA, ScienceTh, ScThGrade, SciencePr, ScPrGrade, ScienceTotal, ScTotalGrade, ScienceGPA, HealthTh, HThGrade, HealthPr, HPrGrade, HealthTotal, HTotalGrade, HealthGPA, MoralTh, MThGrade, MoralPr, MPrGrade, MoralTotal, MTotalGrade, MoralGPA, BusinessTh, BThGrade, BusinessPr, BPrGrade, BusinessTotal, BTotalGrade, BusinessGPA, LocalTh, LThGrade, LocalPr, LPrGrade, LocalTotal, LTotalGrade, LocalGPA, TotalTh, TotalThGrade, TotalPr, TotalPrGrade, Total, Grade, GPA, Remark FROM dataTable</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE `dataTable` SET `StudentName` = ?, `Symbol` = ?, `MotherName` = ?, `FatherName` = ?, `Address` = ?, `DOB` = ?, `NepaliTh` = ?, `NThGrade` = ?, `NepaliPr` = ?, `NPrGrade` = ?, `NepaliTotal` = ?, `NTotalGrade` = ?, `NepalliGPA` = ?, `EnglishTh` = ?, `EThGrade` = ?, `EnglishPr` = ?, `EPrGrade` = ?, `EnglishTotal` = ?, `ETotalGrade` = ?, `EnglishGPA` = ?, `MathematicsTh` = ?, `MGrade` = ?, `MathGPA` = ?, `SocialTh` = ?, `SoThGrade` = ?, `SocialPr` = ?, `SoPrGrade` = ?, `SocialTotal` = ?, `SoTotalGrade` = ?, `SocialGPA` = ?, `ScienceTh` = ?, `ScThGrade` = ?, `SciencePr` = ?, `ScPrGrade` = ?, `ScienceTotal` = ?, `ScTotalGrade` = ?, `ScienceGPA` = ?, `HealthTh` = ?, `HThGrade` = ?, `HealthPr` = ?, `HPrGrade` = ?, `HealthTotal` = ?, `HTotalGrade` = ?, `HealthGPA` = ?, `MoralTh` = ?, `MThGrade` = ?, `MoralPr` = ?, `MPrGrade` = ?, `MoralTotal` = ?, `MTotalGrade` = ?, `MoralGPA` = ?, `BusinessTh` = ?, `BThGrade` = ?, `BusinessPr` = ?, `BPrGrade` = ?, `BusinessTotal` = ?, `BTotalGrade` = ?, `BusinessGPA` = ?, `LocalTh` = ?, `LThGrade` = ?, `LocalPr` = ?, `LPrGrade` = ?, `LocalTotal` = ?, `LTotalGrade` = ?, `LocalGPA` = ?, `TotalTh` = ?, `TotalThGrade` = ?, `TotalPr` = ?, `TotalPrGrade` = ?, `Total` = ?, `Grade` = ?, `GPA` = ?, `Remark` = ? WHERE (((? = 1 AND `ID` IS NULL) OR (`ID` = ?)) AND (`Symbol` = ?) AND ((? = 1 AND `DOB` IS NULL) OR (`DOB` = ?)) AND ((? = 1 AND `NepaliTh` IS NULL) OR (`NepaliTh` = ?)) AND ((? = 1 AND `NThGrade` IS NULL) OR (`NThGrade` = ?)) AND ((? = 1 AND `NepaliPr` IS NULL) OR (`NepaliPr` = ?)) AND ((? = 1 AND `NPrGrade` IS NULL) OR (`NPrGrade` = ?)) AND ((? = 1 AND `NepaliTotal` IS NULL) OR (`NepaliTotal` = ?)) AND ((? = 1 AND `NTotalGrade` IS NULL) OR (`NTotalGrade` = ?)) AND ((? = 1 AND `NepalliGPA` IS NULL) OR (`NepalliGPA` = ?)) AND ((? = 1 AND `EnglishTh` IS NULL) OR (`EnglishTh` = ?)) AND ((? = 1 AND `EThGrade` IS NULL) OR (`EThGrade` = ?)) AND ((? = 1 AND `EnglishPr` IS NULL) OR (`EnglishPr` = ?)) AND ((? = 1 AND `EPrGrade` IS NULL) OR (`EPrGrade` = ?)) AND ((? = 1 AND `EnglishTotal` IS NULL) OR (`EnglishTotal` = ?)) AND ((? = 1 AND `ETotalGrade` IS NULL) OR (`ETotalGrade` = ?)) AND ((? = 1 AND `EnglishGPA` IS NULL) OR (`EnglishGPA` = ?)) AND ((? = 1 AND `MathematicsTh` IS NULL) OR (`MathematicsTh` = ?)) AND ((? = 1 AND `MGrade` IS NULL) OR (`MGrade` = ?)) AND ((? = 1 AND `MathGPA` IS NULL) OR (`MathGPA` = ?)) AND ((? = 1 AND `SocialTh` IS NULL) OR (`SocialTh` = ?)) AND ((? = 1 AND `SoThGrade` IS NULL) OR (`SoThGrade` = ?)) AND ((? = 1 AND `SocialPr` IS NULL) OR (`SocialPr` = ?)) AND ((? = 1 AND `SoPrGrade` IS NULL) OR (`SoPrGrade` = ?)) AND ((? = 1 AND `SocialTotal` IS NULL) OR (`SocialTotal` = ?)) AND ((? = 1 AND `SoTotalGrade` IS NULL) OR (`SoTotalGrade` = ?)) AND ((? = 1 AND `SocialGPA` IS NULL) OR (`SocialGPA` = ?)) AND ((? = 1 AND `ScienceTh` IS NULL) OR (`ScienceTh` = ?)) AND ((? = 1 AND `ScThGrade` IS NULL) OR (`ScThGrade` = ?)) AND ((? = 1 AND `SciencePr` IS NULL) OR (`SciencePr` = ?)) AND ((? = 1 AND `ScPrGrade` IS NULL) OR (`ScPrGrade` = ?)) AND ((? = 1 AND `ScienceTotal` IS NULL) OR (`ScienceTotal` = ?)) AND ((? = 1 AND `ScTotalGrade` IS NULL) OR (`ScTotalGrade` = ?)) AND ((? = 1 AND `ScienceGPA` IS NULL) OR (`ScienceGPA` = ?)) AND ((? = 1 AND `HealthTh` IS NULL) OR (`HealthTh` = ?)) AND ((? = 1 AND `HThGrade` IS NULL) OR (`HThGrade` = ?)) AND ((? = 1 AND `HealthPr` IS NULL) OR (`HealthPr` = ?)) AND ((? = 1 AND `HPrGrade` IS NULL) OR (`HPrGrade` = ?)) AND ((? = 1 AND `HealthTotal` IS NULL) OR (`HealthTotal` = ?)) AND ((? = 1 AND `HTotalGrade` IS NULL) OR (`HTotalGrade` = ?)) AND ((? = 1 AND `HealthGPA` IS NULL) OR (`HealthGPA` = ?)) AND ((? = 1 AND `MoralTh` IS NULL) OR (`MoralTh` = ?)) AND ((? = 1 AND `MThGrade` IS NULL) OR (`MThGrade` = ?)) AND ((? = 1 AND `MoralPr` IS NULL) OR (`MoralPr` = ?)) AND ((? = 1 AND `MPrGrade` IS NULL) OR (`MPrGrade` = ?)) AND ((? = 1 AND `MoralTotal` IS NULL) OR (`MoralTotal` = ?)) AND ((? = 1 AND `MTotalGrade` IS NULL) OR (`MTotalGrade` = ?)) AND ((? = 1 AND `MoralGPA` IS NULL) OR (`MoralGPA` = ?)) AND ((? = 1 AND `BusinessTh` IS NULL) OR (`BusinessTh` = ?)) AND ((? = 1 AND `BThGrade` IS NULL) OR (`BThGrade` = ?)) AND ((? = 1 AND `BusinessPr` IS NULL) OR (`BusinessPr` = ?)) AND ((? = 1 AND `BPrGrade` IS NULL) OR (`BPrGrade` = ?)) AND ((? = 1 AND `BusinessTotal` IS NULL) OR (`BusinessTotal` = ?)) AND ((? = 1 AND `BTotalGrade` IS NULL) OR (`BTotalGrade` = ?)) AND ((? = 1 AND `BusinessGPA` IS NULL) OR (`BusinessGPA` = ?)) AND ((? = 1 AND `LocalTh` IS NULL) OR (`LocalTh` = ?)) AND ((? = 1 AND `LThGrade` IS NULL) OR (`LThGrade` = ?)) AND ((? = 1 AND `LocalPr` IS NULL) OR (`LocalPr` = ?)) AND ((? = 1 AND `LPrGrade` IS NULL) OR (`LPrGrade` = ?)) AND ((? = 1 AND `LocalTotal` IS NULL) OR (`LocalTotal` = ?)) AND ((? = 1 AND `LTotalGrade` IS NULL) OR (`LTotalGrade` = ?)) AND ((? = 1 AND `LocalGPA` IS NULL) OR (`LocalGPA` = ?)) AND ((? = 1 AND `TotalTh` IS NULL) OR (`TotalTh` = ?)) AND ((? = 1 AND `TotalThGrade` IS NULL) OR (`TotalThGrade` = ?)) AND ((? = 1 AND `TotalPr` IS NULL) OR (`TotalPr` = ?)) AND ((? = 1 AND `TotalPrGrade` IS NULL) OR (`TotalPrGrade` = ?)) AND ((? = 1 AND `Total` IS NULL) OR (`Total` = ?)) AND ((? = 1 AND `Grade` IS NULL) OR (`Grade` = ?)) AND ((? = 1 AND `GPA` IS NULL) OR (`GPA` = ?)) AND ((? = 1 AND `Remark` IS NULL) OR (`Remark` = ?)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="StudentName" Precision="0" ProviderType="LongVarWChar" Scale="0" Size="0" SourceColumn="StudentName" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Symbol" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Symbol" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MotherName" Precision="0" ProviderType="LongVarWChar" Scale="0" Size="0" SourceColumn="MotherName" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="FatherName" Precision="0" ProviderType="LongVarWChar" Scale="0" Size="0" SourceColumn="FatherName" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Address" Precision="0" ProviderType="LongVarWChar" Scale="0" Size="0" SourceColumn="Address" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="DOB" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="DOB" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="NepaliTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NepaliTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="NThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NThGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="NepaliPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NepaliPr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="NPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NPrGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="NepaliTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NepaliTotal" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="NTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NTotalGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="NepalliGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NepalliGPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="EnglishTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EnglishTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="EThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EThGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="EnglishPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EnglishPr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="EPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EPrGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="EnglishTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EnglishTotal" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="ETotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ETotalGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="EnglishGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EnglishGPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MathematicsTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MathematicsTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MathGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MathGPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="SocialTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SocialTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="SoThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SoThGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="SocialPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SocialPr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="SoPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SoPrGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="SocialTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SocialTotal" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="SoTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SoTotalGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="SocialGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SocialGPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="ScienceTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScienceTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="ScThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScThGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="SciencePr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SciencePr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="ScPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScPrGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="ScienceTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScienceTotal" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="ScTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScTotalGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="ScienceGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScienceGPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="HealthTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HealthTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="HThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HThGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="HealthPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HealthPr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="HPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HPrGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="HealthTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HealthTotal" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="HTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HTotalGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="HealthGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HealthGPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MoralTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MoralTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MThGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MoralPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MoralPr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MPrGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MoralTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MoralTotal" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MTotalGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="MoralGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MoralGPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="BusinessTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BusinessTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="BThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BThGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="BusinessPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BusinessPr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="BPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BPrGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="BusinessTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BusinessTotal" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="BTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BTotalGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="BusinessGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BusinessGPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="LocalTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LocalTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="LThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LThGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="LocalPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LocalPr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="LPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LPrGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="LocalTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LocalTotal" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="LTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LTotalGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="LocalGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LocalGPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="TotalTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="TotalTh" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="TotalThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="TotalThGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="TotalPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="TotalPr" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="TotalPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="TotalPrGrade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Total" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Total" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Grade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Grade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="GPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="GPA" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Remark" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Remark" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_ID" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ID" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_ID" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="Original_Symbol" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Symbol" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_DOB" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="DOB" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_DOB" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="DOB" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_NepaliTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="NepaliTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_NepaliTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NepaliTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_NThGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="NThGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_NThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NThGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_NepaliPr" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="NepaliPr" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_NepaliPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NepaliPr" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_NPrGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="NPrGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_NPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NPrGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_NepaliTotal" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="NepaliTotal" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_NepaliTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NepaliTotal" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_NTotalGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="NTotalGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_NTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NTotalGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_NepalliGPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="NepalliGPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_NepalliGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="NepalliGPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_EnglishTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="EnglishTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_EnglishTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EnglishTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_EThGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="EThGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_EThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EThGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_EnglishPr" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="EnglishPr" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_EnglishPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EnglishPr" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_EPrGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="EPrGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_EPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EPrGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_EnglishTotal" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="EnglishTotal" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_EnglishTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EnglishTotal" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_ETotalGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ETotalGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_ETotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ETotalGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_EnglishGPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="EnglishGPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_EnglishGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="EnglishGPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MathematicsTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MathematicsTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MathematicsTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MathematicsTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MathGPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MathGPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MathGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MathGPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_SocialTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="SocialTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_SocialTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SocialTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_SoThGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="SoThGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_SoThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SoThGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_SocialPr" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="SocialPr" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_SocialPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SocialPr" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_SoPrGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="SoPrGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_SoPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SoPrGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_SocialTotal" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="SocialTotal" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_SocialTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SocialTotal" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_SoTotalGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="SoTotalGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_SoTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SoTotalGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_SocialGPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="SocialGPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_SocialGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SocialGPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_ScienceTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ScienceTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_ScienceTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScienceTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_ScThGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ScThGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_ScThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScThGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_SciencePr" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="SciencePr" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_SciencePr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="SciencePr" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_ScPrGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ScPrGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_ScPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScPrGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_ScienceTotal" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ScienceTotal" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_ScienceTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScienceTotal" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_ScTotalGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ScTotalGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_ScTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScTotalGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_ScienceGPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="ScienceGPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_ScienceGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="ScienceGPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_HealthTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="HealthTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_HealthTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HealthTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_HThGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="HThGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_HThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HThGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_HealthPr" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="HealthPr" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_HealthPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HealthPr" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_HPrGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="HPrGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_HPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HPrGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_HealthTotal" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="HealthTotal" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_HealthTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HealthTotal" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_HTotalGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="HTotalGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_HTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HTotalGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_HealthGPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="HealthGPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_HealthGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="HealthGPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MoralTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MoralTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MoralTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MoralTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MThGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MThGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MThGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MoralPr" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MoralPr" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MoralPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MoralPr" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MPrGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MPrGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MPrGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MoralTotal" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MoralTotal" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MoralTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MoralTotal" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MTotalGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MTotalGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MTotalGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_MoralGPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="MoralGPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_MoralGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="MoralGPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_BusinessTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="BusinessTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_BusinessTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BusinessTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_BThGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="BThGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_BThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BThGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_BusinessPr" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="BusinessPr" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_BusinessPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BusinessPr" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_BPrGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="BPrGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_BPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BPrGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_BusinessTotal" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="BusinessTotal" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_BusinessTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BusinessTotal" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_BTotalGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="BTotalGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_BTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BTotalGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_BusinessGPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="BusinessGPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_BusinessGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="BusinessGPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_LocalTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="LocalTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_LocalTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LocalTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_LThGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="LThGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_LThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LThGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_LocalPr" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="LocalPr" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_LocalPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LocalPr" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_LPrGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="LPrGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_LPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LPrGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_LocalTotal" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="LocalTotal" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_LocalTotal" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LocalTotal" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_LTotalGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="LTotalGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_LTotalGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LTotalGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_LocalGPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="LocalGPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_LocalGPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="LocalGPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_TotalTh" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="TotalTh" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_TotalTh" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="TotalTh" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_TotalThGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="TotalThGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_TotalThGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="TotalThGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_TotalPr" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="TotalPr" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_TotalPr" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="TotalPr" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_TotalPrGrade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="TotalPrGrade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_TotalPrGrade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="TotalPrGrade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Total" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Total" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Total" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Total" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Grade" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Grade" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Grade" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Grade" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_GPA" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="GPA" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_GPA" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="GPA" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_Remark" Precision="0" ProviderType="Integer" Scale="0" Size="0" SourceColumn="Remark" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_Remark" Precision="0" ProviderType="VarWChar" Scale="0" Size="0" SourceColumn="Remark" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="StudentName" DataSetColumn="StudentName" />
+              <Mapping SourceColumn="Symbol" DataSetColumn="Symbol" />
+              <Mapping SourceColumn="MotherName" DataSetColumn="MotherName" />
+              <Mapping SourceColumn="FatherName" DataSetColumn="FatherName" />
+              <Mapping SourceColumn="Address" DataSetColumn="Address" />
+              <Mapping SourceColumn="DOB" DataSetColumn="DOB" />
+              <Mapping SourceColumn="NepaliTh" DataSetColumn="NepaliTh" />
+              <Mapping SourceColumn="NThGrade" DataSetColumn="NThGrade" />
+              <Mapping SourceColumn="NepaliPr" DataSetColumn="NepaliPr" />
+              <Mapping SourceColumn="NPrGrade" DataSetColumn="NPrGrade" />
+              <Mapping SourceColumn="NepaliTotal" DataSetColumn="NepaliTotal" />
+              <Mapping SourceColumn="NTotalGrade" DataSetColumn="NTotalGrade" />
+              <Mapping SourceColumn="NepalliGPA" DataSetColumn="NepalliGPA" />
+              <Mapping SourceColumn="EnglishTh" DataSetColumn="EnglishTh" />
+              <Mapping SourceColumn="EThGrade" DataSetColumn="EThGrade" />
+              <Mapping SourceColumn="EnglishPr" DataSetColumn="EnglishPr" />
+              <Mapping SourceColumn="EPrGrade" DataSetColumn="EPrGrade" />
+              <Mapping SourceColumn="EnglishTotal" DataSetColumn="EnglishTotal" />
+              <Mapping SourceColumn="ETotalGrade" DataSetColumn="ETotalGrade" />
+              <Mapping SourceColumn="EnglishGPA" DataSetColumn="EnglishGPA" />
+              <Mapping SourceColumn="MathematicsTh" DataSetColumn="MathematicsTh" />
+              <Mapping SourceColumn="MGrade" DataSetColumn="MGrade" />
+              <Mapping SourceColumn="MathGPA" DataSetColumn="MathGPA" />
+              <Mapping SourceColumn="SocialTh" DataSetColumn="SocialTh" />
+              <Mapping SourceColumn="SoThGrade" DataSetColumn="SoThGrade" />
+              <Mapping SourceColumn="SocialPr" DataSetColumn="SocialPr" />
+              <Mapping SourceColumn="SoPrGrade" DataSetColumn="SoPrGrade" />
+              <Mapping SourceColumn="SocialTotal" DataSetColumn="SocialTotal" />
+              <Mapping SourceColumn="SoTotalGrade" DataSetColumn="SoTotalGrade" />
+              <Mapping SourceColumn="SocialGPA" DataSetColumn="SocialGPA" />
+              <Mapping SourceColumn="ScienceTh" DataSetColumn="ScienceTh" />
+              <Mapping SourceColumn="ScThGrade" DataSetColumn="ScThGrade" />
+              <Mapping SourceColumn="SciencePr" DataSetColumn="SciencePr" />
+              <Mapping SourceColumn="ScPrGrade" DataSetColumn="ScPrGrade" />
+              <Mapping SourceColumn="ScienceTotal" DataSetColumn="ScienceTotal" />
+              <Mapping SourceColumn="ScTotalGrade" DataSetColumn="ScTotalGrade" />
+              <Mapping SourceColumn="ScienceGPA" DataSetColumn="ScienceGPA" />
+              <Mapping SourceColumn="HealthTh" DataSetColumn="HealthTh" />
+              <Mapping SourceColumn="HThGrade" DataSetColumn="HThGrade" />
+              <Mapping SourceColumn="HealthPr" DataSetColumn="HealthPr" />
+              <Mapping SourceColumn="HPrGrade" DataSetColumn="HPrGrade" />
+              <Mapping SourceColumn="HealthTotal" DataSetColumn="HealthTotal" />
+              <Mapping SourceColumn="HTotalGrade" DataSetColumn="HTotalGrade" />
+              <Mapping SourceColumn="HealthGPA" DataSetColumn="HealthGPA" />
+              <Mapping SourceColumn="MoralTh" DataSetColumn="MoralTh" />
+              <Mapping SourceColumn="MThGrade" DataSetColumn="MThGrade" />
+              <Mapping SourceColumn="MoralPr" DataSetColumn="MoralPr" />
+              <Mapping SourceColumn="MPrGrade" DataSetColumn="MPrGrade" />
+              <Mapping SourceColumn="MoralTotal" DataSetColumn="MoralTotal" />
+              <Mapping SourceColumn="MTotalGrade" DataSetColumn="MTotalGrade" />
+              <Mapping SourceColumn="MoralGPA" DataSetColumn="MoralGPA" />
+              <Mapping SourceColumn="BusinessTh" DataSetColumn="BusinessTh" />
+              <Mapping SourceColumn="BThGrade" DataSetColumn="BThGrade" />
+              <Mapping SourceColumn="BusinessPr" DataSetColumn="BusinessPr" />
+              <Mapping SourceColumn="BPrGrade" DataSetColumn="BPrGrade" />
+              <Mapping SourceColumn="BusinessTotal" DataSetColumn="BusinessTotal" />
+              <Mapping SourceColumn="BTotalGrade" DataSetColumn="BTotalGrade" />
+              <Mapping SourceColumn="BusinessGPA" DataSetColumn="BusinessGPA" />
+              <Mapping SourceColumn="LocalTh" DataSetColumn="LocalTh" />
+              <Mapping SourceColumn="LThGrade" DataSetColumn="LThGrade" />
+              <Mapping SourceColumn="LocalPr" DataSetColumn="LocalPr" />
+              <Mapping SourceColumn="LPrGrade" DataSetColumn="LPrGrade" />
+              <Mapping SourceColumn="LocalTotal" DataSetColumn="LocalTotal" />
+              <Mapping SourceColumn="LTotalGrade" DataSetColumn="LTotalGrade" />
+              <Mapping SourceColumn="LocalGPA" DataSetColumn="LocalGPA" />
+              <Mapping SourceColumn="TotalTh" DataSetColumn="TotalTh" />
+              <Mapping SourceColumn="TotalThGrade" DataSetColumn="TotalThGrade" />
+              <Mapping SourceColumn="TotalPr" DataSetColumn="TotalPr" />
+              <Mapping SourceColumn="TotalPrGrade" DataSetColumn="TotalPrGrade" />
+              <Mapping SourceColumn="Total" DataSetColumn="Total" />
+              <Mapping SourceColumn="Grade" DataSetColumn="Grade" />
+              <Mapping SourceColumn="GPA" DataSetColumn="GPA" />
+              <Mapping SourceColumn="Remark" DataSetColumn="Remark" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SDatabaseDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="SDatabaseDataSet" msprop:Generator_UserDSName="SDatabaseDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dataTable" msprop:Generator_TableClassName="dataTableDataTable" msprop:Generator_TableVarName="tabledataTable" msprop:Generator_TablePropName="dataTable" msprop:Generator_RowDeletingName="dataTableRowDeleting" msprop:Generator_RowChangingName="dataTableRowChanging" msprop:Generator_RowEvHandlerName="dataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="dataTableRowDeleted" msprop:Generator_UserTableName="dataTable" msprop:Generator_RowChangedName="dataTableRowChanged" msprop:Generator_RowEvArgName="dataTableRowChangeEvent" msprop:Generator_RowClassName="dataTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="StudentName" msprop:Generator_ColumnVarNameInTable="columnStudentName" msprop:Generator_ColumnPropNameInRow="StudentName" msprop:Generator_ColumnPropNameInTable="StudentNameColumn" msprop:Generator_UserColumnName="StudentName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Symbol" msprop:Generator_ColumnVarNameInTable="columnSymbol" msprop:Generator_ColumnPropNameInRow="Symbol" msprop:Generator_ColumnPropNameInTable="SymbolColumn" msprop:Generator_UserColumnName="Symbol" type="xs:string" />
+              <xs:element name="MotherName" msprop:Generator_ColumnVarNameInTable="columnMotherName" msprop:Generator_ColumnPropNameInRow="MotherName" msprop:Generator_ColumnPropNameInTable="MotherNameColumn" msprop:Generator_UserColumnName="MotherName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FatherName" msprop:Generator_ColumnVarNameInTable="columnFatherName" msprop:Generator_ColumnPropNameInRow="FatherName" msprop:Generator_ColumnPropNameInTable="FatherNameColumn" msprop:Generator_UserColumnName="FatherName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" msprop:Generator_UserColumnName="Address" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOB" msprop:Generator_ColumnVarNameInTable="columnDOB" msprop:Generator_ColumnPropNameInRow="DOB" msprop:Generator_ColumnPropNameInTable="DOBColumn" msprop:Generator_UserColumnName="DOB" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NepaliTh" msprop:Generator_ColumnVarNameInTable="columnNepaliTh" msprop:Generator_ColumnPropNameInRow="NepaliTh" msprop:Generator_ColumnPropNameInTable="NepaliThColumn" msprop:Generator_UserColumnName="NepaliTh" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NThGrade" msprop:Generator_ColumnVarNameInTable="columnNThGrade" msprop:Generator_ColumnPropNameInRow="NThGrade" msprop:Generator_ColumnPropNameInTable="NThGradeColumn" msprop:Generator_UserColumnName="NThGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NepaliPr" msprop:Generator_ColumnVarNameInTable="columnNepaliPr" msprop:Generator_ColumnPropNameInRow="NepaliPr" msprop:Generator_ColumnPropNameInTable="NepaliPrColumn" msprop:Generator_UserColumnName="NepaliPr" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NPrGrade" msprop:Generator_ColumnVarNameInTable="columnNPrGrade" msprop:Generator_ColumnPropNameInRow="NPrGrade" msprop:Generator_ColumnPropNameInTable="NPrGradeColumn" msprop:Generator_UserColumnName="NPrGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NepaliTotal" msprop:Generator_ColumnVarNameInTable="columnNepaliTotal" msprop:Generator_ColumnPropNameInRow="NepaliTotal" msprop:Generator_ColumnPropNameInTable="NepaliTotalColumn" msprop:Generator_UserColumnName="NepaliTotal" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NTotalGrade" msprop:Generator_ColumnVarNameInTable="columnNTotalGrade" msprop:Generator_ColumnPropNameInRow="NTotalGrade" msprop:Generator_ColumnPropNameInTable="NTotalGradeColumn" msprop:Generator_UserColumnName="NTotalGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NepalliGPA" msprop:Generator_ColumnVarNameInTable="columnNepalliGPA" msprop:Generator_ColumnPropNameInRow="NepalliGPA" msprop:Generator_ColumnPropNameInTable="NepalliGPAColumn" msprop:Generator_UserColumnName="NepalliGPA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EnglishTh" msprop:Generator_ColumnVarNameInTable="columnEnglishTh" msprop:Generator_ColumnPropNameInRow="EnglishTh" msprop:Generator_ColumnPropNameInTable="EnglishThColumn" msprop:Generator_UserColumnName="EnglishTh" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EThGrade" msprop:Generator_ColumnVarNameInTable="columnEThGrade" msprop:Generator_ColumnPropNameInRow="EThGrade" msprop:Generator_ColumnPropNameInTable="EThGradeColumn" msprop:Generator_UserColumnName="EThGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EnglishPr" msprop:Generator_ColumnVarNameInTable="columnEnglishPr" msprop:Generator_ColumnPropNameInRow="EnglishPr" msprop:Generator_ColumnPropNameInTable="EnglishPrColumn" msprop:Generator_UserColumnName="EnglishPr" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EPrGrade" msprop:Generator_ColumnVarNameInTable="columnEPrGrade" msprop:Generator_ColumnPropNameInRow="EPrGrade" msprop:Generator_ColumnPropNameInTable="EPrGradeColumn" msprop:Generator_UserColumnName="EPrGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EnglishTotal" msprop:Generator_ColumnVarNameInTable="columnEnglishTotal" msprop:Generator_ColumnPropNameInRow="EnglishTotal" msprop:Generator_ColumnPropNameInTable="EnglishTotalColumn" msprop:Generator_UserColumnName="EnglishTotal" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ETotalGrade" msprop:Generator_ColumnVarNameInTable="columnETotalGrade" msprop:Generator_ColumnPropNameInRow="ETotalGrade" msprop:Generator_ColumnPropNameInTable="ETotalGradeColumn" msprop:Generator_UserColumnName="ETotalGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EnglishGPA" msprop:Generator_ColumnVarNameInTable="columnEnglishGPA" msprop:Generator_ColumnPropNameInRow="EnglishGPA" msprop:Generator_ColumnPropNameInTable="EnglishGPAColumn" msprop:Generator_UserColumnName="EnglishGPA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MathematicsTh" msprop:Generator_ColumnVarNameInTable="columnMathematicsTh" msprop:Generator_ColumnPropNameInRow="MathematicsTh" msprop:Generator_ColumnPropNameInTable="MathematicsThColumn" msprop:Generator_UserColumnName="MathematicsTh" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MGrade" msprop:Generator_ColumnVarNameInTable="columnMGrade" msprop:Generator_ColumnPropNameInRow="MGrade" msprop:Generator_ColumnPropNameInTable="MGradeColumn" msprop:Generator_UserColumnName="MGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MathGPA" msprop:Generator_ColumnVarNameInTable="columnMathGPA" msprop:Generator_ColumnPropNameInRow="MathGPA" msprop:Generator_ColumnPropNameInTable="MathGPAColumn" msprop:Generator_UserColumnName="MathGPA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SocialTh" msprop:Generator_ColumnVarNameInTable="columnSocialTh" msprop:Generator_ColumnPropNameInRow="SocialTh" msprop:Generator_ColumnPropNameInTable="SocialThColumn" msprop:Generator_UserColumnName="SocialTh" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SoThGrade" msprop:Generator_ColumnVarNameInTable="columnSoThGrade" msprop:Generator_ColumnPropNameInRow="SoThGrade" msprop:Generator_ColumnPropNameInTable="SoThGradeColumn" msprop:Generator_UserColumnName="SoThGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SocialPr" msprop:Generator_ColumnVarNameInTable="columnSocialPr" msprop:Generator_ColumnPropNameInRow="SocialPr" msprop:Generator_ColumnPropNameInTable="SocialPrColumn" msprop:Generator_UserColumnName="SocialPr" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SoPrGrade" msprop:Generator_ColumnVarNameInTable="columnSoPrGrade" msprop:Generator_ColumnPropNameInRow="SoPrGrade" msprop:Generator_ColumnPropNameInTable="SoPrGradeColumn" msprop:Generator_UserColumnName="SoPrGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SocialTotal" msprop:Generator_ColumnVarNameInTable="columnSocialTotal" msprop:Generator_ColumnPropNameInRow="SocialTotal" msprop:Generator_ColumnPropNameInTable="SocialTotalColumn" msprop:Generator_UserColumnName="SocialTotal" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SoTotalGrade" msprop:Generator_ColumnVarNameInTable="columnSoTotalGrade" msprop:Generator_ColumnPropNameInRow="SoTotalGrade" msprop:Generator_ColumnPropNameInTable="SoTotalGradeColumn" msprop:Generator_UserColumnName="SoTotalGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SocialGPA" msprop:Generator_ColumnVarNameInTable="columnSocialGPA" msprop:Generator_ColumnPropNameInRow="SocialGPA" msprop:Generator_ColumnPropNameInTable="SocialGPAColumn" msprop:Generator_UserColumnName="SocialGPA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ScienceTh" msprop:Generator_ColumnVarNameInTable="columnScienceTh" msprop:Generator_ColumnPropNameInRow="ScienceTh" msprop:Generator_ColumnPropNameInTable="ScienceThColumn" msprop:Generator_UserColumnName="ScienceTh" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ScThGrade" msprop:Generator_ColumnVarNameInTable="columnScThGrade" msprop:Generator_ColumnPropNameInRow="ScThGrade" msprop:Generator_ColumnPropNameInTable="ScThGradeColumn" msprop:Generator_UserColumnName="ScThGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SciencePr" msprop:Generator_ColumnVarNameInTable="columnSciencePr" msprop:Generator_ColumnPropNameInRow="SciencePr" msprop:Generator_ColumnPropNameInTable="SciencePrColumn" msprop:Generator_UserColumnName="SciencePr" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ScPrGrade" msprop:Generator_ColumnVarNameInTable="columnScPrGrade" msprop:Generator_ColumnPropNameInRow="ScPrGrade" msprop:Generator_ColumnPropNameInTable="ScPrGradeColumn" msprop:Generator_UserColumnName="ScPrGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ScienceTotal" msprop:Generator_ColumnVarNameInTable="columnScienceTotal" msprop:Generator_ColumnPropNameInRow="ScienceTotal" msprop:Generator_ColumnPropNameInTable="ScienceTotalColumn" msprop:Generator_UserColumnName="ScienceTotal" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ScTotalGrade" msprop:Generator_ColumnVarNameInTable="columnScTotalGrade" msprop:Generator_ColumnPropNameInRow="ScTotalGrade" msprop:Generator_ColumnPropNameInTable="ScTotalGradeColumn" msprop:Generator_UserColumnName="ScTotalGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ScienceGPA" msprop:Generator_ColumnVarNameInTable="columnScienceGPA" msprop:Generator_ColumnPropNameInRow="ScienceGPA" msprop:Generator_ColumnPropNameInTable="ScienceGPAColumn" msprop:Generator_UserColumnName="ScienceGPA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HealthTh" msprop:Generator_ColumnVarNameInTable="columnHealthTh" msprop:Generator_ColumnPropNameInRow="HealthTh" msprop:Generator_ColumnPropNameInTable="HealthThColumn" msprop:Generator_UserColumnName="HealthTh" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HThGrade" msprop:Generator_ColumnVarNameInTable="columnHThGrade" msprop:Generator_ColumnPropNameInRow="HThGrade" msprop:Generator_ColumnPropNameInTable="HThGradeColumn" msprop:Generator_UserColumnName="HThGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HealthPr" msprop:Generator_ColumnVarNameInTable="columnHealthPr" msprop:Generator_ColumnPropNameInRow="HealthPr" msprop:Generator_ColumnPropNameInTable="HealthPrColumn" msprop:Generator_UserColumnName="HealthPr" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HPrGrade" msprop:Generator_ColumnVarNameInTable="columnHPrGrade" msprop:Generator_ColumnPropNameInRow="HPrGrade" msprop:Generator_ColumnPropNameInTable="HPrGradeColumn" msprop:Generator_UserColumnName="HPrGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HealthTotal" msprop:Generator_ColumnVarNameInTable="columnHealthTotal" msprop:Generator_ColumnPropNameInRow="HealthTotal" msprop:Generator_ColumnPropNameInTable="HealthTotalColumn" msprop:Generator_UserColumnName="HealthTotal" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HTotalGrade" msprop:Generator_ColumnVarNameInTable="columnHTotalGrade" msprop:Generator_ColumnPropNameInRow="HTotalGrade" msprop:Generator_ColumnPropNameInTable="HTotalGradeColumn" msprop:Generator_UserColumnName="HTotalGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HealthGPA" msprop:Generator_ColumnVarNameInTable="columnHealthGPA" msprop:Generator_ColumnPropNameInRow="HealthGPA" msprop:Generator_ColumnPropNameInTable="HealthGPAColumn" msprop:Generator_UserColumnName="HealthGPA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MoralTh" msprop:Generator_ColumnVarNameInTable="columnMoralTh" msprop:Generator_ColumnPropNameInRow="MoralTh" msprop:Generator_ColumnPropNameInTable="MoralThColumn" msprop:Generator_UserColumnName="MoralTh" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MThGrade" msprop:Generator_ColumnVarNameInTable="columnMThGrade" msprop:Generator_ColumnPropNameInRow="MThGrade" msprop:Generator_ColumnPropNameInTable="MThGradeColumn" msprop:Generator_UserColumnName="MThGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MoralPr" msprop:Generator_ColumnVarNameInTable="columnMoralPr" msprop:Generator_ColumnPropNameInRow="MoralPr" msprop:Generator_ColumnPropNameInTable="MoralPrColumn" msprop:Generator_UserColumnName="MoralPr" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MPrGrade" msprop:Generator_ColumnVarNameInTable="columnMPrGrade" msprop:Generator_ColumnPropNameInRow="MPrGrade" msprop:Generator_ColumnPropNameInTable="MPrGradeColumn" msprop:Generator_UserColumnName="MPrGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MoralTotal" msprop:Generator_ColumnVarNameInTable="columnMoralTotal" msprop:Generator_ColumnPropNameInRow="MoralTotal" msprop:Generator_ColumnPropNameInTable="MoralTotalColumn" msprop:Generator_UserColumnName="MoralTotal" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MTotalGrade" msprop:Generator_ColumnVarNameInTable="columnMTotalGrade" msprop:Generator_ColumnPropNameInRow="MTotalGrade" msprop:Generator_ColumnPropNameInTable="MTotalGradeColumn" msprop:Generator_UserColumnName="MTotalGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MoralGPA" msprop:Generator_ColumnVarNameInTable="columnMoralGPA" msprop:Generator_ColumnPropNameInRow="MoralGPA" msprop:Generator_ColumnPropNameInTable="MoralGPAColumn" msprop:Generator_UserColumnName="MoralGPA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BusinessTh" msprop:Generator_ColumnVarNameInTable="columnBusinessTh" msprop:Generator_ColumnPropNameInRow="BusinessTh" msprop:Generator_ColumnPropNameInTable="BusinessThColumn" msprop:Generator_UserColumnName="BusinessTh" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BThGrade" msprop:Generator_ColumnVarNameInTable="columnBThGrade" msprop:Generator_ColumnPropNameInRow="BThGrade" msprop:Generator_ColumnPropNameInTable="BThGradeColumn" msprop:Generator_UserColumnName="BThGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BusinessPr" msprop:Generator_ColumnVarNameInTable="columnBusinessPr" msprop:Generator_ColumnPropNameInRow="BusinessPr" msprop:Generator_ColumnPropNameInTable="BusinessPrColumn" msprop:Generator_UserColumnName="BusinessPr" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BPrGrade" msprop:Generator_ColumnVarNameInTable="columnBPrGrade" msprop:Generator_ColumnPropNameInRow="BPrGrade" msprop:Generator_ColumnPropNameInTable="BPrGradeColumn" msprop:Generator_UserColumnName="BPrGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BusinessTotal" msprop:Generator_ColumnVarNameInTable="columnBusinessTotal" msprop:Generator_ColumnPropNameInRow="BusinessTotal" msprop:Generator_ColumnPropNameInTable="BusinessTotalColumn" msprop:Generator_UserColumnName="BusinessTotal" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BTotalGrade" msprop:Generator_ColumnVarNameInTable="columnBTotalGrade" msprop:Generator_ColumnPropNameInRow="BTotalGrade" msprop:Generator_ColumnPropNameInTable="BTotalGradeColumn" msprop:Generator_UserColumnName="BTotalGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BusinessGPA" msprop:Generator_ColumnVarNameInTable="columnBusinessGPA" msprop:Generator_ColumnPropNameInRow="BusinessGPA" msprop:Generator_ColumnPropNameInTable="BusinessGPAColumn" msprop:Generator_UserColumnName="BusinessGPA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LocalTh" msprop:Generator_ColumnVarNameInTable="columnLocalTh" msprop:Generator_ColumnPropNameInRow="LocalTh" msprop:Generator_ColumnPropNameInTable="LocalThColumn" msprop:Generator_UserColumnName="LocalTh" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LThGrade" msprop:Generator_ColumnVarNameInTable="columnLThGrade" msprop:Generator_ColumnPropNameInRow="LThGrade" msprop:Generator_ColumnPropNameInTable="LThGradeColumn" msprop:Generator_UserColumnName="LThGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LocalPr" msprop:Generator_ColumnVarNameInTable="columnLocalPr" msprop:Generator_ColumnPropNameInRow="LocalPr" msprop:Generator_ColumnPropNameInTable="LocalPrColumn" msprop:Generator_UserColumnName="LocalPr" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LPrGrade" msprop:Generator_ColumnVarNameInTable="columnLPrGrade" msprop:Generator_ColumnPropNameInRow="LPrGrade" msprop:Generator_ColumnPropNameInTable="LPrGradeColumn" msprop:Generator_UserColumnName="LPrGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LocalTotal" msprop:Generator_ColumnVarNameInTable="columnLocalTotal" msprop:Generator_ColumnPropNameInRow="LocalTotal" msprop:Generator_ColumnPropNameInTable="LocalTotalColumn" msprop:Generator_UserColumnName="LocalTotal" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LTotalGrade" msprop:Generator_ColumnVarNameInTable="columnLTotalGrade" msprop:Generator_ColumnPropNameInRow="LTotalGrade" msprop:Generator_ColumnPropNameInTable="LTotalGradeColumn" msprop:Generator_UserColumnName="LTotalGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LocalGPA" msprop:Generator_ColumnVarNameInTable="columnLocalGPA" msprop:Generator_ColumnPropNameInRow="LocalGPA" msprop:Generator_ColumnPropNameInTable="LocalGPAColumn" msprop:Generator_UserColumnName="LocalGPA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalTh" msprop:Generator_ColumnVarNameInTable="columnTotalTh" msprop:Generator_ColumnPropNameInRow="TotalTh" msprop:Generator_ColumnPropNameInTable="TotalThColumn" msprop:Generator_UserColumnName="TotalTh" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalThGrade" msprop:Generator_ColumnVarNameInTable="columnTotalThGrade" msprop:Generator_ColumnPropNameInRow="TotalThGrade" msprop:Generator_ColumnPropNameInTable="TotalThGradeColumn" msprop:Generator_UserColumnName="TotalThGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalPr" msprop:Generator_ColumnVarNameInTable="columnTotalPr" msprop:Generator_ColumnPropNameInRow="TotalPr" msprop:Generator_ColumnPropNameInTable="TotalPrColumn" msprop:Generator_UserColumnName="TotalPr" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TotalPrGrade" msprop:Generator_ColumnVarNameInTable="columnTotalPrGrade" msprop:Generator_ColumnPropNameInRow="TotalPrGrade" msprop:Generator_ColumnPropNameInTable="TotalPrGradeColumn" msprop:Generator_UserColumnName="TotalPrGrade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Grade" msprop:Generator_ColumnVarNameInTable="columnGrade" msprop:Generator_ColumnPropNameInRow="Grade" msprop:Generator_ColumnPropNameInTable="GradeColumn" msprop:Generator_UserColumnName="Grade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GPA" msprop:Generator_ColumnVarNameInTable="columnGPA" msprop:Generator_ColumnPropNameInRow="GPA" msprop:Generator_ColumnPropNameInTable="GPAColumn" msprop:Generator_UserColumnName="GPA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Remark" msprop:Generator_ColumnVarNameInTable="columnRemark" msprop:Generator_ColumnPropNameInRow="Remark" msprop:Generator_ColumnPropNameInTable="RemarkColumn" msprop:Generator_UserColumnName="Remark" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dataTable" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
